@@ -17,7 +17,7 @@ sys.path.append("..")
 
 def parse_args():
 
-    parser = argparse.ArgumentParser(description="Run AutoDR.")
+    parser = argparse.ArgumentParser(description="Run AdaDR.")
     parser.add_argument('--dataset', nargs='?', default='Fdataset', help='Choose a dataset. [Fdataset/Cdataset/LRSSL]')
     parser.add_argument('--mode', type=str, default='cv', help='cv, case, analysis.')
     parser.add_argument("--seed", type=int, default=666)
